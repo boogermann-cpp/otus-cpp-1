@@ -13,4 +13,4 @@ deploy:
   provider: script
   skip_cleanup: true
   script:
-  - curl -f -T cmake-0.1.$TRAVIS_BUILD_NUMBER-Linux.deb -uboogermann:$BINTRAY_API_KEY "https://api.bintray.com/content/home-office/otus-cpp/homework/$TRAVIS_BUILD_NUMBER/cmake-0.1.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=bionic;deb_component=main;deb_architecture=amd64;publish=1"
+  - curl -f -T lesson_1-0.1.$TRAVIS_BUILD_NUMBER-Linux.deb -uboogermann:$BINTRAY_API_KEY "https://api.bintray.com/content/home-office/otus-cpp/homework/$TRAVIS_BUILD_NUMBER/lesson_1-0.1.$TRAVIS_BUILD_NUMBER-Linux.deb;deb_distribution=bionic;deb_component=main;deb_architecture=amd64;publish=1"
