@@ -9,7 +9,6 @@ add_subdirectory(src)
 add_subdirectory(tests)
 add_subdirectory(lib/googletest)
 
-install(TARGETS lesson_1 RUNTIME DESTINATION bin)
 
 set(CPACK_GENERATOR DEB)
 

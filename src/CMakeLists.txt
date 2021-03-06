@@ -7,3 +7,5 @@ add_executable(lesson_1 main.cpp)
 add_library(version_lib version.cpp)
 
 target_link_libraries(lesson_1 version_lib)
+
+install(TARGETS lesson_1 RUNTIME DESTINATION bin)
