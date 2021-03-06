@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.10.0)
-project(lesson_1 VERSION 0.1.0)
+project(lesson-1 VERSION 0.1.0)
 
 include(CTest)
 
 
-include_directories(src)
+
 add_subdirectory(src)
 add_subdirectory(tests)
 add_subdirectory(lib/googletest)
