@@ -1,8 +1,8 @@
 #pragma once
 
-#cmakedefine BUILD_NUMBER @TRAVIS_BUILD_NUMBER@
+#cmakedefine BUILD_NUMBER @PROJECT_VERSION_PATCH@
 
 #ifndef BUILD_NUMBER
-#define BUILD_NUMBER 0
+#define BUILD_NUMBER -1
 
 #endif

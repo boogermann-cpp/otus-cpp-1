@@ -12,8 +12,6 @@ project(lesson-1 VERSION 0.1.${BUILD_NUMBER})
 
 include(CTest)
 
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "build")
-
 add_subdirectory(src)
 add_subdirectory(tests)
 add_subdirectory(lib/googletest)
