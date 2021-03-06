@@ -7,8 +7,10 @@ else()
     set(BUILD_NUMBER 0)
 endif()
 
+message("Build is started with ${BUILD_NUMBER} number")
 
-project(lesson-1 VERSION 0.1.${BUILD_NUMBER})
+
+project(cmake VERSION 0.1.${BUILD_NUMBER})
 
 include(CTest)
 
